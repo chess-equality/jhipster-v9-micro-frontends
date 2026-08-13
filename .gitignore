@@ -151,3 +151,6 @@ Desktop.ini
 ######################
 coverage/
 .nyc_output/
+
+AGENTS.md
+.agents/**/*

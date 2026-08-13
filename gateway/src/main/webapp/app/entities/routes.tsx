@@ -10,15 +10,18 @@ import entitiesReducers from './reducers';
 
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
-export default () => {
-  const store = getStore();
-  store.injectReducer('gateway', combineReducers(entitiesReducers as ReducersMapObject));
-  return (
-    <div>
-      <ErrorBoundaryRoutes>
-        {/* prettier-ignore */}
-        {/* jhipster-needle-add-route-path - JHipster will add routes here */}
-      </ErrorBoundaryRoutes>
-    </div>
-  );
-};
+// Inject entity reducers once at module load (not during render, which would
+// dispatch mid-render), and only when there are reducers to inject — an empty
+// combineReducers({}) makes Redux 5 warn on every dispatched action.
+if (Object.keys(entitiesReducers).length > 0) {
+  getStore().injectReducer('gateway', combineReducers(entitiesReducers as ReducersMapObject));
+}
+
+export default () => (
+  <div>
+    <ErrorBoundaryRoutes>
+      {/* prettier-ignore */}
+      {/* jhipster-needle-add-route-path - JHipster will add routes here */}
+    </ErrorBoundaryRoutes>
+  </div>
+);
