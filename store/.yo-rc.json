@@ -1,0 +1,28 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 2,
+    "applicationType": "microservice",
+    "authenticationType": "oauth2",
+    "baseName": "store",
+    "buildTool": "gradle",
+    "clientFramework": "react",
+    "creationTimestamp": 1703199582704,
+    "databaseType": "mongodb",
+    "devServerPort": null,
+    "enableHibernateCache": false,
+    "entities": ["Product"],
+    "gatewayServerPort": "8080",
+    "jhipsterVersion": "9.2.0",
+    "jwtSecretKey": "NjhmZTEwMmQ2MjUyY2I4NTUwNGYxYWM0ZjNlMDllNzY3YzFhNDVmYWJkZGVjNjIyNDA1MzI3OTc3OWM5ODU0ZDJiNzkzN2M0MDYyYzRmNzFkYTFlNmZiMmUwOWI0NWY1YTY0ZWEwZDllMDdlZWM1NmIzYTYwOWZiYjQyOTA1ZmQ=",
+    "languages": ["en"],
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "packageName": "initiative.jhipster.mf.neo4j.store",
+    "reactive": true,
+    "serverPort": "8082",
+    "serviceDiscoveryType": "consul",
+    "skipCommitHook": true,
+    "skipUserManagement": true,
+    "testFrameworks": ["cypress"]
+  }
+}

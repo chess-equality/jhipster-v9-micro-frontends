@@ -1,0 +1,21 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "blog", "store"],
+    "clusteredDbApps": ["store"],
+    "dbRandomPassword": "6c2174e2b11f61bf0259b6bebee2f200efdc36ffe0d164b398173d0705d2",
+    "deploymentType": "kubernetes",
+    "directoryPath": "../",
+    "dockerPushCommand": "docker push",
+    "dockerRepositoryName": "chessequality",
+    "ingressDomain": "",
+    "ingressType": "nginx",
+    "istio": false,
+    "jwtSecretKey": "ZGRlNTgyNzBmMDg5Mjk3ZmMxMTlkOWU1Yjc5MGQyNjY0N2JmNGEwODc1NTg4OTJiOWM2YmE0M2M1ZWMwMzIwN2EzZDhlNjIxZmI0M2EyYmM1YjAyYjIxOGQ0MWM3NTNmYjhjNA==",
+    "kubernetesNamespace": "demo",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesStorageClassName": "",
+    "kubernetesUseDynamicStorage": true,
+    "monitoring": "no",
+    "serviceDiscoveryType": "consul"
+  }
+}

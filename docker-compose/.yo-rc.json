@@ -1,0 +1,13 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "blog", "store"],
+    "clusteredDbApps": [],
+    "deploymentType": "docker-compose",
+    "directoryPath": "../",
+    "dockerRepositoryName": "chessequality",
+    "gatewayType": "SpringCloudGateway",
+    "jwtSecretKey": "YzRkNjYxMmY0YjZmYWY0YzgxMzJmMWY1NjBkMmVjMjRiOWI5MWYyYzA2OGU1OTAxM2I0NTllYmE4Y2M1MmFhNmY3NDliNGQ5MDM3MmY5NzExY2UyY2MxN2I1N2U3NmQzYjIzYw==",
+    "monitoring": "no",
+    "serviceDiscoveryType": "consul"
+  }
+}

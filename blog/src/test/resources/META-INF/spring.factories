@@ -1,0 +1,2 @@
+org.springframework.test.context.ContextCustomizerFactory = \
+    initiative.jhipster.mf.neo4j.blog.config.Neo4jTestContainersSpringContextCustomizerFactory
