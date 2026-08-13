@@ -203,7 +203,7 @@ jhipster:
     management-include-pattern: /management/**
     title: Store API
     description: Store API documentation
-    version: 0.0.1
+    version: 1.0.0
     terms-of-service-url:
     contact-name:
     contact-url:

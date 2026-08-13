@@ -196,7 +196,7 @@ jhipster:
     management-include-pattern: /management/**
     title: Blog API
     description: Blog API documentation
-    version: 0.0.1
+    version: 1.0.0
     terms-of-service-url:
     contact-name:
     contact-url:
