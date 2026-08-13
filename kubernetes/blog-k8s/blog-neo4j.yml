@@ -43,7 +43,7 @@ spec:
             claimName: blog-neo4j-pvc
       containers:
         - name: neo4j
-          image: neo4j:5.26.28
+          image: neo4j:2026.02.3
           env:
             - name: NEO4J_AUTH
               value: 'none'

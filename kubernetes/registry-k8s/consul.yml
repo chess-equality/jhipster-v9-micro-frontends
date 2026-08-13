@@ -121,7 +121,7 @@ spec:
         fsGroup: 1001
       containers:
         - name: consul
-          image: hashicorp/consul:2.0.2
+          image: hashicorp/consul:2.0.3
           imagePullPolicy: 'IfNotPresent'
           securityContext:
             allowPrivilegeEscalation: false

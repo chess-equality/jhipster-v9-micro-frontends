@@ -1,8 +1,8 @@
-# This configuration is intended for development purpose, it's **your** responsibility to harden it for production
-name: gateway
+# This configuration is intended for development purposes; it's **your** responsibility to harden it for production.
+name: jhi-mf-gateway
 services:
   keycloak:
-    image: quay.io/keycloak/keycloak:26.7.0
+    image: quay.io/keycloak/keycloak:26.7.1
     command: 'start-dev --import-realm'
     volumes:
       - ./realm-config:/opt/keycloak/data/import
